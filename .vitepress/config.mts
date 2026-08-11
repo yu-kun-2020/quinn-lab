@@ -80,8 +80,22 @@ export default defineConfig({
       '/thoughts/': [
         {
           text: 'Thoughts',
+          collapsed: false,
           items: [
-            { text: '思考', link: '/thoughts/404' },
+            {
+              text: '电影',
+              collapsed: false,
+              items: [
+                { text: '欢迎到龙餐馆', link: '/thoughts/movies/欢迎到龙餐馆' },
+              ]
+            },
+            {
+              text: '阅读',
+              collapsed: false,
+              items: [
+                { text: '小王子', link: '/thoughts/reading/小王子' },
+              ]
+            },
           ]
         }
       ],

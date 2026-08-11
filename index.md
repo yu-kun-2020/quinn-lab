@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Explore Notes
-      link: /notes/backend/nodejs/01初始
+      link: /notes/backend/nodejs/初始NodeJS
     - theme: alt
       text: View Projects
       link: /projects/404
