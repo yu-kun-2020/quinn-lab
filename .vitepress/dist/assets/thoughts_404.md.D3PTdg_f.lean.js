@@ -1,0 +1,1 @@
+import{H as e,V as t,et as n,j as r}from"./chunks/framework.DCJECfJ5.js";var i=JSON.parse(`{"title":"思考和感悟","description":"","frontmatter":{},"headers":[],"relativePath":"thoughts/404.md","filePath":"thoughts/404.md"}`),a={name:`thoughts/404.md`};function o(r,i,a,o,s,c){return n(),t(`div`,null,[...i[0]||=[e("",8)]])}var s=r(a,[[`render`,o]]);export{i as __pageData,s as default};

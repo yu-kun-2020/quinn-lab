@@ -1,0 +1,1 @@
+import{H as e,V as t,et as n,j as r}from"./chunks/framework.DCJECfJ5.js";var i=JSON.parse(`{"title":"关于我","description":"","frontmatter":{},"headers":[],"relativePath":"about/Me.md","filePath":"about/Me.md"}`),a={name:`about/Me.md`};function o(r,i,a,o,s,c){return n(),t(`div`,null,[...i[0]||=[e("",10)]])}var s=r(a,[[`render`,o]]);export{i as __pageData,s as default};
