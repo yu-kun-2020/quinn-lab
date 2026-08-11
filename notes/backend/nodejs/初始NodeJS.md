@@ -1,4 +1,4 @@
-# 01初始Node.js
+# 初始Node.js
 
 
 ## 为什么我需要学?
@@ -41,7 +41,7 @@ AI时代，Node.js也有一席之地
 本质：JavaScript运行时环境
 
 ## Node.js和浏览器有什么不同？
-Node.js和浏览器都是JavaScript运行时环境
+Node.js和浏览器都是JavaScript运行时环境，但是它们提供的能力不一样。
 
 | 能力         | 浏览器JS | Node.js |
 | ---------- | ----- | ------- |

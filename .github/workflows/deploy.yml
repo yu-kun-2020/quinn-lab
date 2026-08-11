@@ -21,6 +21,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # 完整历史，保证 lastUpdated / 热力图时间戳准确
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4

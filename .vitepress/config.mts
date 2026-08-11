@@ -10,7 +10,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects/404' },
-      { text: 'Notes', link: '/notes/backend/nodejs/01初始' },
+      { text: 'Notes', link: '/notes/backend/nodejs/初始NodeJS' },
+      { text: 'Timeline', link: '/timeline/' },
       { text: 'Resources', link: '/resources/404' },
       { text: 'Thoughts', link: '/thoughts/404' },
       { text: 'About', link: '/about/Me' },
@@ -35,9 +36,26 @@ export default defineConfig({
               text: 'Node.js',
               collapsed: false,
               items: [
-                { text: '01 初始', link: '/notes/backend/nodejs/01初始' },
+                { text: '初始Node.js', link: '/notes/backend/nodejs/初始NodeJS' },
+              ]
+            },
+            {
+              text: '基础概念',
+              collapsed: false,
+              items: [
+                { text: '计算机存储容量单位', link: '/notes/基础概念/计算机存储容量单位' },
               ]
             }
+          ]
+        }
+      ],
+      '/timeline/': [
+        {
+          text: 'Timeline',
+          items: [
+            { text: '时光轴', link: '/timeline/' },
+            { text: '编辑热力图', link: '/timeline/heatmap' },
+            { text: '文章分布', link: '/timeline/tags' },
           ]
         }
       ],
@@ -69,6 +87,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/yu-kun-2020' }
-    ]
+    ],
+
+    lastUpdated: {
+      text: '最后更新于',
+    }
   }
 })
