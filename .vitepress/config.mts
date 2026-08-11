@@ -11,6 +11,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects/404' },
       { text: 'Notes', link: '/notes/backend/nodejs/初始NodeJS' },
+      { text: 'Map', link: '/map/' },
       { text: 'Timeline', link: '/timeline/' },
       { text: 'Resources', link: '/resources/404' },
       { text: 'Thoughts', link: '/thoughts/404' },
@@ -37,6 +38,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '初始Node.js', link: '/notes/backend/nodejs/初始NodeJS' },
+                { text: 'Buffer', link: '/notes/backend/nodejs/Buffer' },
               ]
             },
             {
@@ -46,6 +48,14 @@ export default defineConfig({
                 { text: '计算机存储容量单位', link: '/notes/基础概念/计算机存储容量单位' },
               ]
             }
+          ]
+        }
+      ],
+      '/map/': [
+        {
+          text: 'Map',
+          items: [
+            { text: '知识图谱', link: '/map/' },
           ]
         }
       ],

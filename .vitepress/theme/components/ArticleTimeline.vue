@@ -138,13 +138,11 @@ function formatTime(ts: number): string {
           :key="group.date"
           class="day"
         >
-          <div class="day__axis">
-            <time class="day__stamp" :datetime="group.date">
-              <span class="day__month">{{ group.month }}月</span>
-              <span class="day__num">{{ group.day }}</span>
-            </time>
-            <span class="day__node" aria-hidden="true" />
-          </div>
+          <time class="day__stamp" :datetime="group.date">
+            <span class="day__month">{{ group.month }}月</span>
+            <span class="day__num">{{ group.day }}</span>
+          </time>
+          <span class="day__node" aria-hidden="true" />
 
           <div class="day__body">
             <div class="day__caption">
@@ -254,8 +252,11 @@ function formatTime(ts: number): string {
 }
 
 .year__track {
+  /* 三列：月日 | 轴线节点 | 正文，互不重叠 */
+  --stamp-col: 2.75rem;
+  --rail-col: 1.75rem;
+  --day-gap: 0.55rem;
   position: relative;
-  margin-left: 3.35rem;
 }
 
 .year__track::before {
@@ -263,8 +264,9 @@ function formatTime(ts: number): string {
   position: absolute;
   top: 0.35rem;
   bottom: 0.6rem;
-  left: -1.42rem;
+  left: calc(var(--stamp-col) + var(--day-gap) + var(--rail-col) / 2);
   width: 2px;
+  transform: translateX(-50%);
   background: linear-gradient(
     180deg,
     color-mix(in srgb, var(--vp-c-brand-1) 55%, var(--vp-c-divider)),
@@ -276,7 +278,9 @@ function formatTime(ts: number): string {
 
 .day {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: var(--stamp-col) var(--rail-col) minmax(0, 1fr);
+  column-gap: var(--day-gap);
+  align-items: start;
   position: relative;
   padding-bottom: 1.15rem;
 }
@@ -285,42 +289,37 @@ function formatTime(ts: number): string {
   padding-bottom: 0.25rem;
 }
 
-.day__axis {
-  position: absolute;
-  left: -3.35rem;
-  top: 0;
-  width: 3.35rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding-right: 1.15rem;
-}
-
 .day__stamp {
+  grid-column: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding-right: 0.15rem;
   line-height: 1.15;
   color: var(--vp-c-text-2);
   font-variant-numeric: tabular-nums;
+  text-align: right;
 }
 
 .day__month {
   font-size: 0.68rem;
   color: var(--vp-c-text-3);
   letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 .day__num {
   font-size: 1.15rem;
   font-weight: 700;
   color: var(--vp-c-text-1);
+  min-width: 1.35em;
+  text-align: right;
 }
 
 .day__node {
-  position: absolute;
-  right: -0.22rem;
-  top: 0.95rem;
+  grid-column: 2;
+  justify-self: center;
+  margin-top: 0.95rem;
   width: 0.7rem;
   height: 0.7rem;
   border-radius: 50%;
@@ -333,6 +332,7 @@ function formatTime(ts: number): string {
 }
 
 .day__body {
+  grid-column: 3;
   min-width: 0;
   padding-top: 0.15rem;
 }
@@ -437,21 +437,9 @@ function formatTime(ts: number): string {
 
 @media (max-width: 640px) {
   .year__track {
-    margin-left: 2.85rem;
-  }
-
-  .year__track::before {
-    left: -1.2rem;
-  }
-
-  .day__axis {
-    left: -2.85rem;
-    width: 2.85rem;
-    padding-right: 0.95rem;
-  }
-
-  .day__node {
-    right: -0.18rem;
+    --stamp-col: 2.5rem;
+    --rail-col: 1.45rem;
+    --day-gap: 0.4rem;
   }
 
   .day__num {
