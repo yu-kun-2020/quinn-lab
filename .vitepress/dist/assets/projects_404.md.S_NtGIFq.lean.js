@@ -1,1 +1,0 @@
-import{H as e,V as t,et as n,j as r}from"./chunks/framework.DCJECfJ5.js";var i=JSON.parse(`{"title":"项目介绍","description":"","frontmatter":{},"headers":[],"relativePath":"projects/404.md","filePath":"projects/404.md"}`),a={name:`projects/404.md`};function o(r,i,a,o,s,c){return n(),t(`div`,null,[...i[0]||=[e("",9)]])}var s=r(a,[[`render`,o]]);export{i as __pageData,s as default};
