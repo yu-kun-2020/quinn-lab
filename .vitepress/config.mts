@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/quinn-lab/',
   title: "QuinnLab",
   description: "Quinn's personal website and blog",
   themeConfig: {
