@@ -13,8 +13,8 @@ export default defineConfig({
       { text: 'Notes', link: '/notes/backend/nodejs/初始NodeJS' },
       { text: 'Map', link: '/map/' },
       { text: 'Timeline', link: '/timeline/' },
-      { text: 'Resources', link: '/resources/404' },
-      { text: 'Thoughts', link: '/thoughts/404' },
+      { text: 'Resources', link: '/resources/english/song1' },
+      { text: 'Thoughts', link: '/thoughts/movies/欢迎到龙餐馆' },
       { text: 'About', link: '/about/Me' },
     ],
 
@@ -46,6 +46,8 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '计算机存储容量单位', link: '/notes/基础概念/计算机存储容量单位' },
+                { text: '计算器基本组成', link: '/notes/基础概念/计算器基本组成' },
+                { text: '进程和线程', link: '/notes/基础概念/进程和线程' },
               ]
             }
           ]
@@ -73,7 +75,19 @@ export default defineConfig({
         {
           text: 'Resources',
           items: [
-            { text: '资源库', link: '/resources/404' },
+            {
+              text: '资源库',
+              collapsed: false,
+              items: [
+                {
+                  text: '英语',
+                  collapsed: false,
+                  items: [
+                    { text: 'Do You Like Broccoli Ice Cream', link: '/resources/english/song1' },
+                  ]
+                },
+              ]
+            },
           ]
         }
       ],

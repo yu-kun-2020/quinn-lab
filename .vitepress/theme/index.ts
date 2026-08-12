@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import ArticleHeatmap from './components/ArticleHeatmap.vue'
 import ArticleTimeline from './components/ArticleTimeline.vue'
 import KnowledgeGraph from './components/KnowledgeGraph.vue'
+import Pronounce from './components/Pronounce.vue'
 
 export default {
   extends: DefaultTheme,
@@ -10,5 +11,6 @@ export default {
     app.component('ArticleHeatmap', ArticleHeatmap)
     app.component('ArticleTimeline', ArticleTimeline)
     app.component('KnowledgeGraph', KnowledgeGraph)
+    app.component('Pronounce', Pronounce)
   },
 } satisfies Theme
