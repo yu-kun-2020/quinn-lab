@@ -39,6 +39,7 @@ export default defineConfig({
               items: [
                 { text: '初始Node.js', link: '/notes/backend/nodejs/初始NodeJS' },
                 { text: 'Buffer', link: '/notes/backend/nodejs/Buffer' },
+                { text: 'fs模块', link: '/notes/backend/nodejs/fs' },
               ]
             },
             {
@@ -48,6 +49,7 @@ export default defineConfig({
                 { text: '计算机存储容量单位', link: '/notes/基础概念/计算机存储容量单位' },
                 { text: '计算器基本组成', link: '/notes/基础概念/计算器基本组成' },
                 { text: '进程和线程', link: '/notes/基础概念/进程和线程' },
+                { text: 'JavaScript中的模块系统', link: '/notes/基础概念/JavaScript中的模块系统' },
               ]
             }
           ]
