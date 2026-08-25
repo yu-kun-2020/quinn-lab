@@ -2,6 +2,9 @@
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/frN3nvhIHUk?list=RDfrN3nvhIHUk" title="Do You Like Broccoli Ice Cream?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## 难度系数
+✨✨
+
 ## 单词
 
 - <Pronounce word="like" />
@@ -13,7 +16,6 @@
 - <Pronounce word="donut" />
 - <Pronounce word="banana" />
 - <Pronounce word="popcorn" />
-
 
 
 ## 关键句式

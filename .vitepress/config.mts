@@ -13,7 +13,7 @@ export default defineConfig({
       { text: 'Notes', link: '/notes/backend/nodejs/初始NodeJS' },
       { text: 'Map', link: '/map/' },
       { text: 'Timeline', link: '/timeline/' },
-      { text: 'Resources', link: '/resources/english/song1' },
+      { text: 'Resources', link: '/resources/english/HelloSongforKids' },
       { text: 'Thoughts', link: '/thoughts/movies/欢迎到龙餐馆' },
       { text: 'About', link: '/about/Me' },
     ],
@@ -40,6 +40,7 @@ export default defineConfig({
                 { text: '初始Node.js', link: '/notes/backend/nodejs/初始NodeJS' },
                 { text: 'Buffer', link: '/notes/backend/nodejs/Buffer' },
                 { text: 'fs模块', link: '/notes/backend/nodejs/fs' },
+                { text: 'path', link: '/notes/backend/nodejs/path' },
               ]
             },
             {
@@ -50,6 +51,7 @@ export default defineConfig({
                 { text: '计算器基本组成', link: '/notes/基础概念/计算器基本组成' },
                 { text: '进程和线程', link: '/notes/基础概念/进程和线程' },
                 { text: 'JavaScript中的模块系统', link: '/notes/基础概念/JavaScript中的模块系统' },
+                { text: 'HTTP', link: '/notes/基础概念/HTTP' },
               ]
             }
           ]
@@ -85,7 +87,10 @@ export default defineConfig({
                   text: '英语',
                   collapsed: false,
                   items: [
-                    { text: 'Do You Like Broccoli Ice Cream', link: '/resources/english/song1' },
+                    { text: 'Hello Hello', link: '/resources/english/HelloHello' },
+                    { text: 'Do You Like Broccoli Ice Cream', link: '/resources/english/DoYouLikeBroccoliIceCream' },
+                    { text: 'Hello Song for Kids', link: '/resources/english/HelloSongforKids' },
+                    { text: 'Head Shoulders Knees And Toes', link: '/resources/english/HeadShouldersKneesAndToes' },
                   ]
                 },
               ]

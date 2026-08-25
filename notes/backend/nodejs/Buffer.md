@@ -17,17 +17,22 @@
 3、Buffer性能好，可以直接操作计算机内存
 
 ## 前置知识
+
 [单位](/notes/基础概念/计算机存储容量单位)
 
 ## 创建Buffer
+
 ### 1.alloc
+
 ![alloc创建](/public/images/buffer1.png)
 用alloc方法创建的Buffer每一位都会归0，会初始化内存
 
 ### 2.allocUnsafe
+
 allocUnsafe创建Buffer不初始化内存（快，但里面可能残留旧数据）
 
 ### 3.from
+
 ![from创建](/public/images/buffer2.png)
 每一位都是16进制的表示，因为传入的是字符，对应的是Unicode编号，UTF-8编码。from里面传入的不仅可以是字符，也可以是任何可以转换成二进制的数据。
 
