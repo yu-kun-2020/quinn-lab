@@ -91,6 +91,8 @@ export default defineConfig({
                     { text: 'Do You Like Broccoli Ice Cream', link: '/resources/english/DoYouLikeBroccoliIceCream' },
                     { text: 'Hello Song for Kids', link: '/resources/english/HelloSongforKids' },
                     { text: 'Head Shoulders Knees And Toes', link: '/resources/english/HeadShouldersKneesAndToes' },
+                    { text: 'We Are Shapes', link: '/resources/english/WeAreShapes' },
+                    { text: 'Five Little Monkeys', link: '/resources/english/FiveLittleMonkeys' },
                   ]
                 },
               ]
