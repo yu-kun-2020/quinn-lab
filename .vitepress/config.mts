@@ -13,7 +13,7 @@ export default defineConfig({
       { text: 'Notes', link: '/notes/backend/nodejs/初始NodeJS' },
       { text: 'Map', link: '/map/' },
       { text: 'Timeline', link: '/timeline/' },
-      { text: 'Resources', link: '/resources/english/HelloSongforKids' },
+      { text: 'Resources', link: '/resources/英语儿歌/HelloSongforKids' },
       { text: 'Thoughts', link: '/thoughts/movies/欢迎到龙餐馆' },
       { text: 'About', link: '/about/Me' },
     ],
@@ -41,6 +41,7 @@ export default defineConfig({
                 { text: 'Buffer', link: '/notes/backend/nodejs/Buffer' },
                 { text: 'fs模块', link: '/notes/backend/nodejs/fs' },
                 { text: 'path', link: '/notes/backend/nodejs/path' },
+                { text: 'http模块', link: '/notes/backend/nodejs/http模块' },
               ]
             },
             {
@@ -50,8 +51,14 @@ export default defineConfig({
                 { text: '计算机存储容量单位', link: '/notes/基础概念/计算机存储容量单位' },
                 { text: '计算器基本组成', link: '/notes/基础概念/计算器基本组成' },
                 { text: '进程和线程', link: '/notes/基础概念/进程和线程' },
+                { text: '换行符', link: '/notes/基础概念/换行符' },
                 { text: 'JavaScript中的模块系统', link: '/notes/基础概念/JavaScript中的模块系统' },
-                { text: 'HTTP', link: '/notes/基础概念/HTTP' },
+                { text: 'HTTP', link: '/notes/基础概念/http' },
+                { text: 'GET和POST不同', link: '/notes/基础概念/GET和POST不同' },
+                { text: 'URL', link: '/notes/基础概念/URL' },
+                { text: 'IP', link: '/notes/基础概念/IP' },
+                { text: '端口', link: '/notes/基础概念/端口' },
+                { text: 'Cookie等身份凭证', link: '/notes/基础概念/Cookie等' },
               ]
             }
           ]
@@ -84,15 +91,16 @@ export default defineConfig({
               collapsed: false,
               items: [
                 {
-                  text: '英语',
+                  text: '英语儿歌',
                   collapsed: false,
                   items: [
-                    { text: 'Hello Hello', link: '/resources/english/HelloHello' },
-                    { text: 'Do You Like Broccoli Ice Cream', link: '/resources/english/DoYouLikeBroccoliIceCream' },
-                    { text: 'Hello Song for Kids', link: '/resources/english/HelloSongforKids' },
-                    { text: 'Head Shoulders Knees And Toes', link: '/resources/english/HeadShouldersKneesAndToes' },
-                    { text: 'We Are Shapes', link: '/resources/english/WeAreShapes' },
-                    { text: 'Five Little Monkeys', link: '/resources/english/FiveLittleMonkeys' },
+                    { text: 'Action Songs For Kids', link: '/resources/英语儿歌/ActionSongsForkids' },
+                    { text: 'Hello Hello', link: '/resources/英语儿歌/HelloHello' },
+                    { text: 'Do You Like Broccoli Ice Cream', link: '/resources/英语儿歌/DoYouLikeBroccoliIceCream' },
+                    { text: 'Hello Song for Kids', link: '/resources/英语儿歌/HelloSongforKids' },
+                    { text: 'Head Shoulders Knees And Toes', link: '/resources/英语儿歌/HeadShouldersKneesAndToes' },
+                    { text: 'We Are Shapes', link: '/resources/英语儿歌/WeAreShapes' },
+                    { text: 'Five Little Monkeys', link: '/resources/英语儿歌/FiveLittleMonkeys' },
                   ]
                 },
               ]

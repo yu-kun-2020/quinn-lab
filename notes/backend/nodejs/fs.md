@@ -294,7 +294,7 @@ import { rename } from 'node:fs/promises';
 await rename('./old.txt', './images/new.txt');
 ```
 
-## 文件删除 
+## 文件删除
 
 ### unlink
 
@@ -327,6 +327,7 @@ await rm('./images', {
   force: true
 });
 ```
+
 > recursive是递归的意思
 
 ## 文件夹和文件相关的操作对比

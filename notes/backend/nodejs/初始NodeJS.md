@@ -1,9 +1,11 @@
 # 初始Node.js
 
-
 ## 为什么我需要学?
+
 补齐前端工程能力
+
 ### 1.每天用的工程化工具很多都是Node.js程序
+
 比如Vite、EsLint、Prettier、pnpm/npm、TypeScript编译
 
 ```text
@@ -23,13 +25,15 @@ Vite / Webpack / ESLint
 ```
 
 ### 2.理解后端思维
+
 可以用Node.js自己搭建服务创建模拟接口，提升开发效率
 
 ### 3.拓展思维
+
 AI时代，Node.js也有一席之地
 
-
 ## Node.js到底是什么？
+
 > Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.
 
 通俗：一个软件，可以运行JavaScript代码
@@ -41,6 +45,7 @@ AI时代，Node.js也有一席之地
 本质：JavaScript运行时环境
 
 ## Node.js和浏览器有什么不同？
+
 Node.js和浏览器都是JavaScript运行时环境，但是它们提供的能力不一样。
 
 | 能力         | 浏览器JS | Node.js |
